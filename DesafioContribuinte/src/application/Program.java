@@ -38,9 +38,8 @@ public class Program {
 			
 			payer.add(taxPayer);
 		}
-		
+		int 1 = 1;
 		for(TaxPayer list: payer) {
-			int i = 1;
 			System.out.println();
 			System.out.println("Resumo do " + i + "º contribuinte:");
 			System.out.printf("Imposto bruto total: R$%.2f%n", list.grossTax());
