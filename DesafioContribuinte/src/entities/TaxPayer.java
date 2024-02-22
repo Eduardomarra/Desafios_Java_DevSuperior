@@ -71,7 +71,7 @@ public class TaxPayer {
 		} else if (monthlySalary >= 5000) {
 			return taxSalary = salaryIncome * 0.2;
 		} else {
-			return null;
+			return 0.00;
 		}
 	}
 	
